@@ -14,7 +14,7 @@ official site [molecules](https://molecule.readthedocs.io/en/latest/)
 > Best practice
 1. create a python virtual environment
 2. Install molecules and other necessary dependency on to the virtual env
-3. create a ansible role by using molecule command line or even we can add molecule init setup of an existing role - which was created from ansible galaxy
+3. create a ansible role by using molecule command line or even we can add molecule init setup in an existing role - which was created from ansible galaxy
 ````
 virtualenv --no-site-package .venv
 
