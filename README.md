@@ -11,7 +11,7 @@ tutorial-3 [click](https://www.digitalocean.com/community/tutorials/how-to-test-
 official site [molecules](https://molecule.readthedocs.io/en/latest/)
 
 # installation
-> Best parctices
+> Best practice
 1. create a python virtual environment
 2. Install molecules and other necessary dependency on to the virtual env
 3. create a ansible role by using molecule command line or even we can add molecule init setup of an existing role - which was created from ansible galaxy
