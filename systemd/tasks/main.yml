@@ -1,0 +1,9 @@
+---
+- name: ping the machine
+  ping:
+- name: copy poc.sh to target location
+  copy:
+    src: poc.sh
+    dest: /
+    owner: root
+    group: root
