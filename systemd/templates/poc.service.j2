@@ -1,0 +1,9 @@
+[Unit]
+Description=POC Daemon
+
+[Service]
+ExecStart=/bin/bash /poc/poc.sh
+User=root
+
+[Install]
+WantedBy=multi-user.target

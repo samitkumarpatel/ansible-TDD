@@ -4,6 +4,15 @@
 - name: copy poc.sh to target location
   copy:
     src: poc.sh
-    dest: /
+    dest: /poc/
     owner: root
     group: root
+
+- name: copy the poc.service to the systemd location
+  template:
+    src: poc.service.j2
+    dest: /etc/systemd/system/poc.service
+
+- name: just force systemd to reread configs (2.4 and above)
+  systemd: daemon_reload=yes
+
