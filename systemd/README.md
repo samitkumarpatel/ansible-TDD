@@ -1,4 +1,4 @@
-# Have followed below step to start with
+# Follow below step to start with this project
 ````
 ansible-galaxy init systemd
 mkvirtual env <<name>>
