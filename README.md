@@ -50,6 +50,10 @@ docker run --rm -it -v $(pwd):/tmp/$(basename "$(pwd)") imageName:imageVersion m
 after this command you will be inside the docker container to do further.
 note that- once you exit the container will be removed and you no longer able to get back to the role you have created it.
 ````
-
+# some more ansible command
+````
+molecule --debug test
+molecule test --destroy never
+````
 
 
